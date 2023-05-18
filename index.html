@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+    <title>Challenge Oracle 1 encriptador</title>
+</head>
+
+<body>
+   
+    <header> 
+        <div class ="logo">
+            <img src="imagenes/Vector.png" alt="Logo de Alura">
+        </div>
+        
+    </header>
+
+   
+    <main>
+        <div class = "left">
+        <textarea  id="texagregar" class ="texbox" placeholder="Ingrese el texto aquí"></textarea>
+        </div >
+        <div class = "right" >
+            <img id = "imagenMuneco" src="imagenes/Muñeco.png" alt="Imagen de una persona con lupa buscando">
+            <h1 id="textimagen">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="">Ingrese el texto que desees encriptar o desencriptar</textarea>
+             <button type="button" id="copi" onclick="copiar()">Copiar</button>
+        </div>
+        <div class = "button-left">
+            <h2>Solo letras minúsculas y sin acentos</h2>
+            <button type="button" id ="button-Encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id = "button-Desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+
